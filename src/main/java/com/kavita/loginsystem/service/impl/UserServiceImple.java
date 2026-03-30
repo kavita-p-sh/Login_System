@@ -65,6 +65,6 @@ public class UserServiceImple implements UserService {
 
         redisTemplate.delete(key);
 
-        return "Login successful";
+        return "Login successful";//login success
     }
 }
